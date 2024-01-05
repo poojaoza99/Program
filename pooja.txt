@@ -1,0 +1,119 @@
+/*
+  Java program to perform all arithmetic operations.
+ */
+import java.util.Scanner;
+
+public class Arithmetic {
+
+
+   public static void main(String[] args) {
+        
+        // Create scanner class object
+        Scanner in = new Scanner(System.in);
+
+        // Input two numbers from user
+        System.out.println("Enter first number :");
+        int num1 = in.nextInt();
+        System.out.println("Enter second number :");
+        int num2 = in.nextInt();
+        
+
+        // Perform arithmetic operations.
+        int sum 	= num1 + num2;
+        int difference 	= num1 - num2;
+        int product 	= num1 * num2;
+       
+        
+
+        // Print result to console.
+        System.out.println("Sum : "         + sum);
+        System.out.println("Difference : "  + difference);
+        System.out.println("Product : "     + product);
+   }
+}
+
+
+olp:
+
+Enter first number :
+8
+Enter second number :
+5
+Sum : 13
+Difference : 3
+Product : 40
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+write a program to accept basic detalis from thr user and display the output 
+
+import java.util.*;
+class prg
+{
+public static void main()
+{
+Scanner s=new Scanner(System.in);
+System.out.println("Enter your name :");
+String st=s.nextLine();
+System.out.println("Enter your age :");
+int age=s.nextInt();
+System.out.println("Enter your year of birth :");
+String yr=s.nextLine();
+System.out.println("Name :"+st);
+System.out.println("Age :"+age);
+System.out.println("Year of birth :"+yr);
+}
+}
+
+o/p:
+
+Enter your name :
+pooja
+Enter your age :
+23
+Enter your year of birth :
+20/01/2000
+Name :pooja
+Age :23
+Year of birth :20/01/2000
+
+----------------------------------------------------------------------------------------------\
+
+write a program to accept radius from the user and calculate area of the circle curcumframes of circles 
+
+import java.util.Scanner;  
+public class Pp5
+
+{  
+public static void main(String args[])  
+{  
+double circumference, area;   
+int radius;  
+//object of the Scanner class  
+Scanner sc=new Scanner (System.in);  
+System.out.print("Enter the radius of the circle: ");  
+radius=sc.nextInt();  
+//calculating area of circle  
+area=Math.PI*(radius*radius);  
+//prints the calculated area  
+System.out.println("The area of the circle is: "+area);  
+//calculating circumference of circle  
+circumference=Math.PI*2*radius;  
+//prints the calculated circumference  
+System.out.println("The circumference of the circle is: "+circumference);  
+}  
+}  
+
+olp:
+Enter the radius of the circle: 5
+The area of the circle is: 78.53981633974483
+The circumference of the circle is: 31.41592653589793
+
+-----------------------------------------------------------------------------------------------------------
+
+
+
+
